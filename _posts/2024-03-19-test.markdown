@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Test of adding posts"
+date:   2024-03-30 13:58:42 +0100
+categories: test
+---
+
+This is a test of adding a post to the feed. 
+
