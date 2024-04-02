@@ -8,13 +8,16 @@ categories: Assignment2
 
 
 
-### Introduction to the problem and the data
+### Introduction 
 Throughout the years, multiple weapon laws have been implemented in the US, both locally and nationally. But does these laws actually reduce the number of illegal weapons or even harsh crimes in San Francisco? This short data story aims to shine a light on the crime levels in San Fransisco considering weapon laws. 
-The data under investigation is a data set from the City and County of San Francisco consisting of all registered crimes in the period 2003-2017. Going through the trends in the data it was found that the crime levels in general have grown throughout the years between 2003 and 2017. Looking at the development of weapon law crimes during the period, the trend is the same. In the figure below, the development total crime rate (including weapon law crimes) and the weapon law crime rate is compared. The number of crimes has been normalized, so the plot only compares the development and not the numeric number of crimes. 
+The data under investigation is a data set from the City and County of San Francisco consisting of all registered crimes in the period 2003-2017. Going through the trends in the data it was found that the crime levels in general have grown throughout the years between 2003 and 2017. Looking at the development of weapon law crimes during the period, the trend is the same. 
 
 
-### WHAT IS A WEAPON CRIME?
+### What is a weapon law crime?
+Going through the column containing describtions of the reported 
+In the figure below, the development total crime rate (including weapon law crimes) and the weapon law crime rate is compared. The number of crimes has been normalized, so the plot only compares the development and not the numeric number of crimes. 
 <img src="/assets/graphs/crime_per_year.jpeg" alt="Alt Text" width="400" height="300" class="image-class">
+
 As seen from the plot the number of weapon law crimes committed grows faster than the total number of crimes, meaning that the number of weapon law crimes registered rises more than one would expect based on the general crime pattern. 
 
 
@@ -23,4 +26,4 @@ We now know that the number of weapon law crimes generally goes up, but could th
 Looking at the years, we do not detect clear seasonal trends, but in 2011 there were a large fall in the number of crimes registered in february, which could indicate an outlier in the data. Otherwise the data looks similar from year to year at first glance. 
 To gain more knowledge on the change of weapon law crimes over time, we have visualized the local development over time in a heatmap. The latitude and longitude of the crime is registered in the data and can therefore be mapped and visualized as seen below. 
 PLOT
-As seen from the heatmap…
+Looking at the time period January 2014 to January 2015 
