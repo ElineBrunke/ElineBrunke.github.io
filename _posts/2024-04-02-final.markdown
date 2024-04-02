@@ -5,7 +5,6 @@ date:   2024-04-02 13:58:42 +0100
 categories: Assignment2
 ---
 
-## Introduction
 Throughout the years...
 The short data story aims to ...
 
