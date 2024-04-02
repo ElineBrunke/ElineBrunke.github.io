@@ -9,12 +9,13 @@ categories: Assignment2
 Throughout the years, multiple weapon laws have been implemented in the US, both locally and nationally. But does these laws actually reduce the number of illegal weabons or even harsh crimes in San Francisco? This short data story aims to shine a light on the crime levels in San Fransisco considering weabon laws. 
 
 
-The data under investigation is ... and 
+The data under investigation is ... and going through the trends in the data it was found that the crime levels in general have rised throughout the years between 2003 and 2017. 
 
 
 
 ### Introduction 
-<img src="/assets/graphs/crime_per_year.jpeg" width="800" height="400" frameborder="0"></iframe>
+<img src="/assets/graphs/crime_per_year.jpeg" alt="Alt Text" width="400" height="300" class="image-class">
+
 
 
 <iframe src="/assets/graphs/weaponlaws2.html" width="1000" height="400" frameborder="0"></iframe>
