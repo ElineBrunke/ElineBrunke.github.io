@@ -14,12 +14,12 @@ The data under investigation is a data set from the City and County of San Franc
 
 
 ### What is a weapon law crime?
-Going through the column containing describtions of the reported crimes, a weapon law crime can be having illegal or loaded firearms on your person, concealing a weapon or exhibiting weapons in a threatening manner. To see where the eapon law crimes in San Fransisco is committed, we generated a heat map of the city. The latitude and longitude of the crime is registered in the data and can therefore be mapped and visualized as seen below. The map contains data for an example year, Jan 2014 to Jan 2015, and to help better read the map a few pointers is placed in places with many people, such as universities, stations and parks, as well as two neighborhood Tenderloin and China town. 
+Going through the column containing describtions of the reported crimes, a weapon law crime can be having illegal or loaded firearms on your person, concealing a weapon or exhibiting weapons in a threatening manner. To gain more knowledge of where the weapon law crimes in San Fransisco is committed, we generated a heat map of the city. The latitude and longitude of the crime is registered in the data and can therefore be mapped and visualized as seen below. The map contains data for an example year, Jan 2014 to Jan 2015, and to help better read the map a few pointers is placed in places with many people, such as universities, stations and parks, as well as two neighborhood Tenderloin and China town. 
 <iframe src="/assets/graphs/heatmap_with_time.html" width="1000" height="800" frameborder="0"></iframe>
-It is clear from the map, that a lot of crime happens in Tenderloin, which also happens to have a bad reputation, with a lot of crime, poverty and homelessness in general. [I Went On a Police Ride-Along in San Francisco's Worst Neighborhood](https://www.vice.com/en/article/av4vyg/i-went-on-a-police-ride-along-in-san-franciscos-worst-neighborhood) 
+It is clear from the map, that a lot of crime happens in Tenderloin, which also happens to have a bad reputation, with a lot of crime, poverty and homelessness in general. ([I Went On a Police Ride-Along in San Francisco's Worst Neighborhood](https://www.vice.com/en/article/av4vyg/i-went-on-a-police-ride-along-in-san-franciscos-worst-neighborhood))
  
 
-
+### Development over time
 In the figure below, the development total crime rate (including weapon law crimes) and the weapon law crime rate is compared. The number of crimes has been normalized, so the plot only compares the development and not the numeric number of crimes. 
 
 <img src="/assets/graphs/crime_per_year.jpeg" alt="Alt Text" width="400" height="300" class="image-class">
