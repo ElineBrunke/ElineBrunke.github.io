@@ -5,7 +5,10 @@ title:  "Weapons in San Francisco"
 categories: Assignment2
 ---
 
+
 Throughout the years...
+
+## Introduction
 
 
 The short data story aims to ...
