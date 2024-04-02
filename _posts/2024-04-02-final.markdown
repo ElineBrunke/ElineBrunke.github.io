@@ -8,9 +8,7 @@ categories: Assignment2
 
 Throughout the years...
 
-## Introduction
-
-
+# Introduction
 The short data story aims to ...
 
 <iframe src="/assets/graphs/weaponlaws2.html" width="1000" height="400" frameborder="0"></iframe>
