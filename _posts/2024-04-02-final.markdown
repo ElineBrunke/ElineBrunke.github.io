@@ -7,5 +7,5 @@ categories: Assignment2
 
 Throughout the years...
 
-<iframe src="/assets/css/Bokeh Plot.html" width="600" height="400" frameborder="0"></iframe>
+<iframe src="/assets/graphs/weaponlaws2.html" width="600" height="400" frameborder="0"></iframe>
 
