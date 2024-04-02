@@ -1,11 +1,13 @@
 ---
-layout: post
+layout: page
 title:  "Weapons in San Francisco"
-#date:   2024-04-02 13:58:42 +0100
+date:   2024-04-02 13:58:42 +0100
 categories: Assignment2
 ---
 
+## Introduction
 Throughout the years...
+The short data story aims to ...
 
 <iframe src="/assets/graphs/weaponlaws2.html" width="1000" height="400" frameborder="0"></iframe>
 
