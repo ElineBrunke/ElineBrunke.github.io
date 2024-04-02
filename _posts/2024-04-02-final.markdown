@@ -5,11 +5,17 @@ title:  "Weapons in San Francisco"
 categories: Assignment2
 ---
 
+### Introduction to the problem and the data
+Throughout the years, multiple weapon laws have been implemented in the US, both locally and nationally. But does these laws actually reduce the number of illegal weabons or even harsh crimes in San Francisco? This short data story aims to shine a light on the crime levels in San Fransisco considering weabon laws. 
 
-Throughout the years...
 
-# Introduction
-The short data story aims to ...
+The data under investigation is ... and 
+
+
+
+### Introduction 
+<img src="/assets/graphs/crime_per_year.jpeg" width="800" height="400" frameborder="0"></iframe>
+
 
 <iframe src="/assets/graphs/weaponlaws2.html" width="1000" height="400" frameborder="0"></iframe>
 
