@@ -7,3 +7,5 @@ categories: Assignment2
 
 Throughout the years...
 
+<iframe src="/assets/css/bokeh_graph.html" width="600" height="400" frameborder="0"></iframe>
+
