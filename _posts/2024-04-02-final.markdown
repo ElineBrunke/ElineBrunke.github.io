@@ -22,7 +22,7 @@ It is clear from the map, that a lot of crime happens in Tenderloin, which also 
 ### Development over time
 Going through the trends in the data it was found that the crime levels in general have grown throughout the years between 2003 and 2017. Looking at the development of weapon law crimes during the period, the trend is the same. In the figure below, the development total crime rate (including weapon law crimes) and the weapon law crime rate is compared. The number of crimes has been normalized, so the plot only compares the development and not the numeric number of crimes. 
 
-<img src="/assets/graphs/crime_per_year.jpeg" alt="Alt Text" width="800" height="400" class="image-class">
+<img src="/assets/graphs/crime_per_year.jpeg" alt="Alt Text" width="600" height="400" class="image-class">
 
 As seen from the plot the trend in weapon law crimes committed grows faster than the total number of crimes, surpasing it by 2014, meaning that the number of weapon law crimes registered rises more than one would expect based on the general crime pattern. 
 
