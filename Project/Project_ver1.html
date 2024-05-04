@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Three Columns</title>
+    <title>Three Columns with Heatmap</title>
     <style>
         .column {
             float: left;
@@ -17,6 +17,13 @@
             content: "";
             display: table;
             clear: both;
+        }
+
+        /* Set the size of the iframe */
+        .heatmap {
+            width: 100%;
+            height: 400px; /* Adjust height as needed */
+            border: none; /* Remove iframe border */
         }
     </style>
 </head>
@@ -61,6 +68,12 @@
     document.getElementById("column1").innerHTML += "<p>" + column1Content + "</p>";
     document.getElementById("column2").innerHTML += "<p>" + column2Content + "</p>";
     document.getElementById("column3").innerHTML += "<p>" + column3Content + "</p>";
+
+    // Create iframe for heatmap
+    var heatmapFrame = document.createElement("iframe");
+    heatmapFrame.className = "heatmap";
+    heatmapFrame.src = "/assets/graphs/heatmap_with_time.html"; // Replace with the path to your heatmap HTML file
+    document.getElementById("column1").appendChild(heatmapFrame);
 </script>
 
 </body>
