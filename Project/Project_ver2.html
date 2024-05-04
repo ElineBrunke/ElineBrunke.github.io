@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Columns</title>
+    <style>
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+<div class="row" id="columnsContainer">
+</div>
+
+<script>
+    // Get the text content
+    var text = `Weekly COVID-19 hospitalizations have hit their lowest level ever reported since the pandemic began, according to data from the Centers for Disease Control and Prevention.
+
+    There were 5,615 COVID hospitalizations in the most recent week data that is available. In comparison, there were over 150,000 weekly admissions at the peak of the Omicron variant circulating in early 2022.
+    
+    "The significant decline in COVID-19 hospitalizations and deaths to these new lows is encouraging, showing that our public health measures and vaccination efforts have paid off," said Dr. John Brownstein, chief innovation officer at Boston Children’s Hospital and an ABC News medical contributor.
+    
+    Forecasts of new hospitalizations from the CDC indicate that admissions will likely remain stable for the next four weeks.
+    
+    "It’s important to continue monitoring for new variants and maintaining protective health behaviors to prevent possible surges," Brownstein added.`;
+
+    // Split the text into paragraphs
+    var paragraphs = text.split("\n\n");
+
+    // Calculate the number of paragraphs per column
+    var paragraphsPerColumn = Math.ceil(paragraphs.length / 3);
+
+    // Create columns and distribute paragraphs
+    for (var i = 0; i < 3; i++) {
+        var column = document.createElement("div");
+        column.className = "column";
+        column.innerHTML = "<h2>Column " + (i + 1) + "</h2>";
+
+        // Calculate start and end indexes for paragraphs
+        var startIndex = i * paragraphsPerColumn;
+        var endIndex = Math.min(startIndex + paragraphsPerColumn, paragraphs.length);
+
+        // Join paragraphs within the range
+        var columnContent = paragraphs.slice(startIndex, endIndex).join("<br>");
+
+        // Add content to the column
+        column.innerHTML += "<p>" + columnContent + "</p>";
+
+        // Add column to the container
+        document.getElementById("columnsContainer").appendChild(column);
+    }
+</script>
+
+</body>
+</html>
+
+
