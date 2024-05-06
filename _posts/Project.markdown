@@ -1,38 +1,28 @@
 ---
 layout: post
-title:  "Weapons in San Francisco"
+title:  "Covid in the US"
 #date:   2024-04-02 13:58:42 +0100
-categories: Assignment2
+categories: Project
 ---
-Authors: s183195, s192817
 
 
 ### Introduction 
-Throughout the years, multiple weapon laws have been implemented in the US, both locally and nationally. But does these laws actually reduce the number of illegal weapons or even harsh crimes in San Francisco? This short data story aims to shine a light on the crime levels in San Fransisco considering weapon laws. 
-The data under investigation is a data set from the City and County of San Francisco consisting of all registered crimes in the period 2003-2017. Throughout the process of investigating the criminal patterns of San Francisco, we found an interest in crimes that are labelled "weabon related laws", which over the years have changed from the general crime trend in the city. 
+Weekly COVID-19 hospitalizations have hit their lowest level ever reported since the pandemic began, according to data from the Centers for Disease Control and Prevention.
+
+    There were 5,615 COVID hospitalizations in the most recent week data that is available. In comparison, there were over 150,000 weekly admissions at the peak of the Omicron variant circulating in early 2022.
+    
+    "The significant decline in COVID-19 hospitalizations and deaths to these new lows is encouraging, showing that our public health measures and vaccination efforts have paid off," said Dr. John Brownstein, chief innovation officer at Boston Children’s Hospital and an ABC News medical contributor.
+    
+    Forecasts of new hospitalizations from the CDC indicate that admissions will likely remain stable for the next four weeks.
+    
+    "It’s important to continue monitoring for new variants and maintaining protective health behaviors to prevent possible surges," Brownstein added.
 
 
-### What is a weapon law crime?
-Going through the column containing describtions of the reported crimes, a weapon law crime can be having illegal or loaded firearms on your person, concealing a weapon or exhibiting weapons in a threatening manner. To gain more knowledge of where the weapon law crimes in San Fransisco is committed, we generated a heat map of the city. The latitude and longitude of the crime is registered in the data and can therefore be mapped and visualized as seen below. The map contains data for an example year, Jan 2014 to Jan 2015, and to help better read the map, a few pointers is placed in places with many people, such as universities, stations and parks, as well as two neighborhood Tenderloin and China town. 
-<iframe src="/assets/graphs/heatmap_with_time.html" width="1000" height="800" frameborder="0"></iframe>
-It is clear from the map, that a lot of crime happens in Tenderloin, which also happens to have a bad reputation, with a lot of crime, poverty and homelessness in general. ([I Went On a Police Ride-Along in San Francisco's Worst Neighborhood](https://www.vice.com/en/article/av4vyg/i-went-on-a-police-ride-along-in-san-franciscos-worst-neighborhood))
- 
-
-### Development over time
-Going through the trends in the data it was found that the crime levels in general have grown throughout the years between 2003 and 2017. Looking at the development of weapon law crimes during the period, the trend is the same. In the figure below, the development total crime rate (including weapon law crimes) and the weapon law crime rate is compared. The number of crimes has been normalized, so the plot only compares the development and not the numeric number of crimes. 
 
 <img src="/assets/graphs/crime_per_year.jpeg" alt="Alt Text" width="600" height="400" class="image-class">
 
-As seen from the plot the trend in weapon law crimes committed grows faster than the total number of crimes, surpasing it by 2014, meaning that the number of weapon law crimes registered rises more than one would expect based on the general crime pattern. 
 
 
-We now know that the number of weapon law crimes generally goes up, but since the plot was by year it could also be interesting to investigate the monthly development. With that, we could map out any seasonally trends while investigating the difference when plotting the years together by months. To achieve this, an interactive time series plot for the years 2003 to 2017 has been created and is seen below. 
-<iframe src="/assets/graphs/weaponlaws2.html" width="1000" height="400" frameborder="0"></iframe>
-Looking at the years, we do not detect clear seasonal trends, but in 2011 there were a large fall in the number of crimes registered in february, which could indicate an outlier in the data. Otherwise the data looks similar from year to year at first glance, with the lines of the latter years lying above the first. 
-
-
-### Conclusion
-While we do see an increase in the weapon law related crimes, it could be caused by different things. The year before the trend for weapon law related crimes surpassed the trend for all crimes, the state of California moved forward on gun control and the city of San Francisco in general has some of the strictest gun control in the US. The rise in weapon law related crimes therefore could be because of the increased control and policing on the subject, to try and lower the voilence of other crimes as well. ([SF, state move forward on gun control](https://www.sfgate.com/news/article/SF-state-move-forward-on-gun-control-4212298.php)) 
 
 
 
