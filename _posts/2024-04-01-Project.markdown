@@ -5,27 +5,36 @@ title:  "Covid in the US"
 categories: Project
 ---
 
+<div class="grid">
+    <div class="column">
+        ### Introduction 
+        Weekly COVID-19 hospitalizations have hit their lowest level ever reported since the pandemic began, according to data from the Centers for Disease Control and Prevention.
 
-### Introduction 
-Weekly COVID-19 hospitalizations have hit their lowest level ever reported since the pandemic began, according to data from the Centers for Disease Control and Prevention.
+        There were 5,615 COVID hospitalizations in the most recent week data that is available. In comparison, there were over 150,000 weekly admissions at the peak of the Omicron variant circulating in early 2022.
 
-    There were 5,615 COVID hospitalizations in the most recent week data that is available. In comparison, there were over 150,000 weekly admissions at the peak of the Omicron variant circulating in early 2022.
-    
-    "The significant decline in COVID-19 hospitalizations and deaths to these new lows is encouraging, showing that our public health measures and vaccination efforts have paid off," said Dr. John Brownstein, chief innovation officer at Boston Children’s Hospital and an ABC News medical contributor.
-    
-    Forecasts of new hospitalizations from the CDC indicate that admissions will likely remain stable for the next four weeks.
-    
-    "It’s important to continue monitoring for new variants and maintaining protective health behaviors to prevent possible surges," Brownstein added.
+        "The significant decline in COVID-19 hospitalizations and deaths to these new lows is encouraging, showing that our public health measures and vaccination efforts have paid off," said Dr. John Brownstein, chief innovation officer at Boston Children’s Hospital and an ABC News medical contributor.
 
+        Forecasts of new hospitalizations from the CDC indicate that admissions will likely remain stable for the next four weeks.
 
+        "It’s important to continue monitoring for new variants and maintaining protective health behaviors to prevent possible surges," Brownstein added.
+    </div>
+    <div class="column">
+        <img src="/assets/graphs/crime_per_year.jpeg" alt="Alt Text" width="200" height="133" class="image-class">
+    </div>
+    <div class="column">
+        <!-- Content for the third column -->
+    </div>
+</div>
 
-<img src="/assets/graphs/crime_per_year.jpeg" alt="Alt Text" width="600" height="400" class="image-class">
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
 
-
-
-
-
-
+.column {
+    margin: 0 10px;
+}
 
 
 
