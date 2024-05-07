@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.3.4.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="f67f8e19-d091-4d34-bcb8-f927cc686089" data-root-id="p2503" style="display: contents;"></div>
+  
+    <script type="application/json" id="p2573">
+      {"2e236c4a-e568-42d8-a371-21805075a573":{"version":"3.3.4","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p2503","attributes":{"width":800,"height":400,"x_range":{"type":"object","name":"FactorRange","id":"p2502","attributes":{"factors":{"type":"ndarray","array":["Jun 20","Jul 20","Aug 20","Sep 20","Oct 20","Nov 20","Dec 20","Jan 21","Feb 21","Mar 21","Apr 21","May 21","Jun 21","Jul 21","Aug 21","Sep 21","Oct 21","Nov 21","Dec 21","Jan 22","Feb 22","Mar 22","Apr 22","May 22","Jun 22","Jul 22","Aug 22","Sep 22","Oct 22","Nov 22","Dec 22","Jan 23","Feb 23","Mar 23","Apr 23","May 23","Jun 23","Jul 23","Aug 23","Sep 23","Oct 23","Nov 23","Dec 23","Jan 24","Feb 24","Mar 24"],"shape":[46],"dtype":"object","order":"little"}}},"y_range":{"type":"object","name":"DataRange1d","id":"p2505"},"x_scale":{"type":"object","name":"CategoricalScale","id":"p2513"},"y_scale":{"type":"object","name":"LinearScale","id":"p2514"},"title":{"type":"object","name":"Title","id":"p2506","attributes":{"text":"Critical staffing rate by political color"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p2542","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p2499","attributes":{"selected":{"type":"object","name":"Selection","id":"p2500","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p2501"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":["Jun 20","Jul 20","Aug 20","Sep 20","Oct 20","Nov 20","Dec 20","Jan 21","Feb 21","Mar 21","Apr 21","May 21","Jun 21","Jul 21","Aug 21","Sep 21","Oct 21","Nov 21","Dec 21","Jan 22","Feb 22","Mar 22","Apr 22","May 22","Jun 22","Jul 22","Aug 22","Sep 22","Oct 22","Nov 22","Dec 22","Jan 23","Feb 23","Mar 23","Apr 23","May 23","Jun 23","Jul 23","Aug 23","Sep 23","Oct 23","Nov 23","Dec 23","Jan 24","Feb 24","Mar 24"],"shape":[46],"dtype":"object","order":"little"}],["Democrat",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAAAAACCgUyIM2ulP3jSIBsZrbk/ztNzKXXRvD8cqLOjYbPAP123e6OSzsI/ERcvQOPwwz9H4rAALmnCP6EGdbrxgL4/YLail4hRuj/6+1fmhY25P1iiAUd157g/jPvihE0WuT93y30bx1O3P8QA1AZLI74/dKm1ddd3wj81qQ6r69/EPzDHfwVC48Y/Edm+Ig9NyD/YTPMDFDXFP12Nqzy4yrg/w3/4kL2etD+PwseTccK0P+f2CbIKorQ/6dRiyhK9sj8L4oI3J0+tP/wE4tTrnbA/84v2LPTpsT8LgD9hT+uxP88kH4+GVrE/63LVJDcKrz/rnhMAeVuoP7J7MieFN6c/f9CZZr7yoj+wtOFysHChP2dqnCt606I/s2cQ6Wauoj/2LNrzluaiP8zk4suIqKI/OpnMZme+oT9NEHEfYFKiP3zfX+io9qI/f6tLZ36qoj9ZRkK1+n2iPzCufOWc36E/CcVc8ADXoT8="},"shape":[46],"dtype":"float64","order":"little"}],["Republicans",{"type":"ndarray","array":{"type":"bytes","data":"zuWiH94MRz+/EU4TO/WwP2CuQuvSW8U/CEJLLatCxz+fPHuk8mTJPzaqDG6vVMw/FrXpsyvcyz+3B8M77eHEP+LgSokEi8E//nWe+bZrvj9azLJzZqa9P5u7a7WhBr0/ZsNJn+9Euz/Ul50aPy28PwRVnK03acI/348P2Zgcyj/G8MC5c4XKP/szklnGSMc/WgPTiUq1xj9NGsMillnEP9aV8VUnqbA/dD6UnStPqT/3kZUS156nP3Sxs9ru+KU/MsbWTMz2oz8cHYF8KT6kPxuQNnVTtqQ/VTwz/nZqpD/ODdv4/o+iP3RFdji22KA/viMmyhr1oD/pNK7NWBOgP6WeQnvgx50/X6p41HPInT/Kp4fMQzCdPyvXJ7HxB5s/TnB/vbIgmT/EcaqrBziYP4cizg+rmZY/UPQ/Y2CElz/+mL/3I5yWP1IV8czbfZQ/K+DRFVldkz+iEng7m1OUPz6QUaaAjpM/cswjYjPgkj8="},"shape":[46],"dtype":"float64","order":"little"}],["Swing State",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAAAAADA6SwKxlyqP+aX1SUAVrk/2m/qFg1fuj9vkGo/eBrAPxFnQDTv38M/clShlja0xz8agnQvRIXBP8ZU+z/qrLg/p7hRBI5utD83AWLgsM20P4ypPZhVyLQ/Z6MENEwosz8C5s97IUG0P7H6F6bqg70/hhJovCcIwj91i6LOGx3CP31/em4cc8M/4JTh5806xj+CwgiXkhDFP3fZKGMpqbY/6QaCEMXWsD8DLDtvef6vP3sxAogKWLA/RABa6u9IsT9JlOrNTby0P7uQ96zA2bQ/i5llHY0qsj/R8iFNfZ6xPybxYMhLaLE/uhP25B1rsj/I7BS+cderPww3m8F4uKE/V5QbixkXoj+AGOlyxd6gP0ON/6fTgKA/CrlIQmw7nj+Mqgbz/w6ePxrhR0Nbup4/nERXAWAaoD9BO/2lOsugPxv/ZHxzM6E/Mxe6dfsOnz+iGId+x4GgP8DXBoTRM54/IAtX+/Mknz8="},"shape":[46],"dtype":"float64","order":"little"}],["date",{"type":"ndarray","array":["Jun 20","Jul 20","Aug 20","Sep 20","Oct 20","Nov 20","Dec 20","Jan 21","Feb 21","Mar 21","Apr 21","May 21","Jun 21","Jul 21","Aug 21","Sep 21","Oct 21","Nov 21","Dec 21","Jan 22","Feb 22","Mar 22","Apr 22","May 22","Jun 22","Jul 22","Aug 22","Sep 22","Oct 22","Nov 22","Dec 22","Jan 23","Feb 23","Mar 23","Apr 23","May 23","Jun 23","Jul 23","Aug 23","Sep 23","Oct 23","Nov 23","Dec 23","Jan 24","Feb 24","Mar 24"],"shape":[46],"dtype":"object","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p2543","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p2544"}}},"glyph":{"type":"object","name":"Line","id":"p2539","attributes":{"x":{"type":"field","field":"date"},"y":{"type":"field","field":"Democrat"},"line_color":"blue","line_width":2}},"nonselection_glyph":{"type":"object","name":"Line","id":"p2540","attributes":{"x":{"type":"field","field":"date"},"y":{"type":"field","field":"Democrat"},"line_color":"blue","line_alpha":0.1,"line_width":2}},"muted_glyph":{"type":"object","name":"Line","id":"p2541","attributes":{"x":{"type":"field","field":"date"},"y":{"type":"field","field":"Democrat"},"line_color":"blue","line_width":2}},"muted":true}},{"type":"object","name":"GlyphRenderer","id":"p2551","attributes":{"data_source":{"id":"p2499"},"view":{"type":"object","name":"CDSView","id":"p2552","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p2553"}}},"glyph":{"type":"object","name":"Line","id":"p2548","attributes":{"x":{"type":"field","field":"date"},"y":{"type":"field","field":"Swing State"},"line_color":"purple","line_width":2}},"nonselection_glyph":{"type":"object","name":"Line","id":"p2549","attributes":{"x":{"type":"field","field":"date"},"y":{"type":"field","field":"Swing State"},"line_color":"purple","line_alpha":0.1,"line_width":2}},"muted_glyph":{"type":"object","name":"Line","id":"p2550","attributes":{"x":{"type":"field","field":"date"},"y":{"type":"field","field":"Swing State"},"line_color":"purple","line_width":2}},"muted":true}},{"type":"object","name":"GlyphRenderer","id":"p2560","attributes":{"data_source":{"id":"p2499"},"view":{"type":"object","name":"CDSView","id":"p2561","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p2562"}}},"glyph":{"type":"object","name":"Line","id":"p2557","attributes":{"x":{"type":"field","field":"date"},"y":{"type":"field","field":"Republicans"},"line_color":"red","line_width":2}},"nonselection_glyph":{"type":"object","name":"Line","id":"p2558","attributes":{"x":{"type":"field","field":"date"},"y":{"type":"field","field":"Republicans"},"line_color":"red","line_alpha":0.1,"line_width":2}},"muted_glyph":{"type":"object","name":"Line","id":"p2559","attributes":{"x":{"type":"field","field":"date"},"y":{"type":"field","field":"Republicans"},"line_color":"red","line_width":2}},"muted":true}}],"toolbar":{"type":"object","name":"Toolbar","id":"p2512","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p2525"},{"type":"object","name":"WheelZoomTool","id":"p2526","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p2527","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p2528","attributes":{"syncable":false,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"p2533"},{"type":"object","name":"ResetTool","id":"p2534"},{"type":"object","name":"HelpTool","id":"p2535"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p2520","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p2521","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p2522"},"axis_label":"Average critical staffing rate","major_label_policy":{"type":"object","name":"AllLabels","id":"p2523"}}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p2515","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p2516"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p2517"},"axis_label":"Date","major_label_orientation":1.57,"major_label_policy":{"type":"object","name":"AllLabels","id":"p2518"},"major_label_text_font_size":"10pt"}}],"center":[{"type":"object","name":"Grid","id":"p2519","attributes":{"axis":{"id":"p2515"}}},{"type":"object","name":"Grid","id":"p2524","attributes":{"dimension":1,"axis":{"id":"p2520"}}},{"type":"object","name":"Legend","id":"p2563","attributes":{"location":[0,0],"click_policy":"hide","items":[{"type":"object","name":"LegendItem","id":"p2564","attributes":{"label":{"type":"value","value":"Democrat"},"renderers":[{"id":"p2542"}]}},{"type":"object","name":"LegendItem","id":"p2565","attributes":{"label":{"type":"value","value":"Swing State"},"renderers":[{"id":"p2551"}]}},{"type":"object","name":"LegendItem","id":"p2566","attributes":{"label":{"type":"value","value":"Republicans"},"renderers":[{"id":"p2560"}]}}]}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('p2573').textContent;
+              const render_items = [{"docid":"2e236c4a-e568-42d8-a371-21805075a573","roots":{"p2503":"f67f8e19-d091-4d34-bcb8-f927cc686089"},"root_ids":["p2503"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
