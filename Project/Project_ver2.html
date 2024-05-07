@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Covid 19 US y'all</title>
     <style>
-                /* Center the title */
-                h1 {
+        /* Center the title */
+        h1 {
             text-align: center;
         }
 
@@ -14,12 +14,17 @@
         .authors {
             text-align: center;
             font-size: smaller;
+            margin-bottom: 20px; /* Increased distance after authors */
         }
+
+        /* Style for columns */
         .column {
             float: left;
-            width: 33.33%;
+            width: calc(33.33% - 20px); /* Adjusted width to accommodate extra margin */
             padding: 10px;
             box-sizing: border-box;
+            border: 2px solid #ccc; /* Increased border width */
+            margin: 10px; /* Added margin for spacing between columns */
         }
 
         /* Clear floats after the columns */
@@ -27,6 +32,12 @@
             content: "";
             display: table;
             clear: both;
+        }
+
+        /* Responsive iframe */
+        iframe {
+            width: 100%;
+            height: 400px;
         }
     </style>
 </head>
@@ -53,4 +64,5 @@
 
 </body>
 </html>
+
 
