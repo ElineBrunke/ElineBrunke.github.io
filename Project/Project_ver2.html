@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Covid 19 US y'all</title>
     <style>
+                /* Center the title */
+                h1 {
+            text-align: center;
+        }
+
+        /* Author names style */
+        .authors {
+            text-align: center;
+            font-size: smaller;
+        }
         .column {
             float: left;
             width: 33.33%;
@@ -22,14 +32,14 @@
 </head>
 <body>
 
-<h1>Covid 19 US y'all</h1>
+<h1 style="font-size: 32px;">Covid 19 US y'all</h1>
+<div class="authors">Aarhus, Eline Brunke & Østergaard, Karen Visby</div>
 
 <div class="row">
     <div class="column">
         <p>In the years 2020-2023 the corona virus spread all over the world, and the USA was no exception. This naturally lead to a large number of covid related hospitalizations, deaths and days with critically low staffing at the american hospitals. All this will be investigated further in this article, using several different data set from hospitals all across the states. To take the difference in american states population into account, population and density numbers are included and used to investigate a possible correlation between covid behavior and state density. </p>
         <h2>The state of the nation.</h2>
-        <!-- Inserting the heatmap -->
-        <img src="heatmap.jpg" alt="Heatmap" style="width: 100%;">
+        <iframe src="/assets/graphs/heatmap_with_time.html"></iframe>
     </div>
     <div class="column">
         <h2>Column 2</h2>
