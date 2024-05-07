@@ -5,9 +5,7 @@ title:  "Covid in the US"
 categories: Project
 ---
 
-<div class="grid">
-    <div class="column">
-        ### Introduction 
+### Introduction 
         Weekly COVID-19 hospitalizations have hit their lowest level ever reported since the pandemic began, according to data from the Centers for Disease Control and Prevention.
 
         There were 5,615 COVID hospitalizations in the most recent week data that is available. In comparison, there were over 150,000 weekly admissions at the peak of the Omicron variant circulating in early 2022.
@@ -17,24 +15,8 @@ categories: Project
         Forecasts of new hospitalizations from the CDC indicate that admissions will likely remain stable for the next four weeks.
 
         "It’s important to continue monitoring for new variants and maintaining protective health behaviors to prevent possible surges," Brownstein added.
-    </div>
-    <div class="column">
-        <img src="/assets/graphs/crime_per_year.jpeg" alt="Alt Text" width="200" height="133" class="image-class">
-    </div>
-    <div class="column">
-        <!-- Content for the third column -->
-    </div>
-</div>
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 20px;
-}
-
-.column {
-    margin: 0 10px;
-}
+<img src="/assets/graphs/crime_per_year.jpeg" alt="Alt Text" width="200" height="133" class="image-class">
 
 
 
