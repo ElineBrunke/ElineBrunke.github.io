@@ -3,42 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Single Column with Heatmap</title>
+    <title>Three Columns</title>
     <style>
         .column {
-            width: 100%; /* Set width to 100% to make it a single column */
+            float: left;
+            width: 33.33%;
             padding: 10px;
             box-sizing: border-box;
         }
 
-        /* Set the size of the iframe */
-        #heatmap {
-            width: 100%;
-            height: 400px; /* Adjust height as needed */
-            border: none; /* Remove iframe border */
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
         }
     </style>
 </head>
 <body>
 
-<div class="column" id="columnsContainer">
-    <!-- Embed the heatmap using an iframe -->
-    <iframe src="/assets/graphs/heatmap_with_time.html"></iframe>
+<div class="row">
+    <div class="column">
+        <h2>Column 1</h2>
+        <p>In the years 2020-2023 the corona virus spread all over the world, and the USA was no exception. This naturally lead to a large number of covid related hospitalizations, deaths and days with critically low staffing at the american hospitals. All this will be investigated further in this article, using several different data set from hospitals all across the states. To take the difference in american states population into account, population and density numbers are included and used to investigate a possible correlation between covid behavior and state density. </p>
+        <h2>Column 11</h2>
+        <p>In the years 2020-2023 the corona virus spread all over the world, and the USA was no exception. This naturally lead to a large number of covid related hospitalizations, deaths and days with critically low staffing at the american hospitals. All this will be investigated further in this article, using several different data set from hospitals all across the states. To take the difference in american states population into account, population and density numbers are included and used to investigate a possible correlation between covid behavior and state density. </p>
+    </div>
+    <div class="column">
+        <h2>Column 2</h2>
+        <p>This is the content of column 2.</p>
+    </div>
+    <div class="column">
+        <h2>Column 3</h2>
+        <p>This is the content of column 3.</p>
+    </div>
 </div>
-
-<script>
-    // Get the text content
-    var text = `In the years 2020-2023 the corona virus spread all over the world, and the USA was no exception. This naturally lead to a large number of covid related hospitalizations, deaths and days with critically low staffing at the american hospitals. All this will be investigated further in this article, using several different data set from hospitals all across the states. To take the difference in american states population into account, population and density numbers are included and used to investigate a possible correlation between covid behavior and state density. `;
-
-    // Split the text into paragraphs
-    var paragraphs = text.split("\n\n");
-
-    // Join paragraphs with line breaks
-    var columnContent = paragraphs.join("<br><br>");
-
-    // Add content to the column
-    document.getElementById("columnsContainer").innerHTML += "<p>" + columnContent + "</p>";
-</script>
 
 </body>
 </html>
