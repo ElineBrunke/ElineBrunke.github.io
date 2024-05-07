@@ -5,18 +5,12 @@ title:  "Covid in the US"
 categories: Project
 ---
 
-### Introduction 
-        Weekly COVID-19 hospitalizations have hit their lowest level ever reported since the pandemic began, according to data from the Centers for Disease Control and Prevention.
+*Eline Brunke Aarhus & Karen Visby Østergaard* \\
 
-        There were 5,615 COVID hospitalizations in the most recent week data that is available. In comparison, there were over 150,000 weekly admissions at the peak of the Omicron variant circulating in early 2022.
-
-        "The significant decline in COVID-19 hospitalizations and deaths to these new lows is encouraging, showing that our public health measures and vaccination efforts have paid off," said Dr. John Brownstein, chief innovation officer at Boston Children’s Hospital and an ABC News medical contributor.
-
-        Forecasts of new hospitalizations from the CDC indicate that admissions will likely remain stable for the next four weeks.
-
-        "It’s important to continue monitoring for new variants and maintaining protective health behaviors to prevent possible surges," Brownstein added.
-
-<img src="/assets/graphs/crime_per_year.jpeg" alt="Alt Text" width="200" height="133" class="image-class">
+In the years 2020-2023 the corona virus spread all over the world, and the USA was no exception. This naturally lead to a large number of covid related hospitalizations, deaths and days with critically low staffing at the american hospitals. All this will be investigated further in this article, using several different data set from hospitals all across the states. To take the difference in american states population into account, population and density numbers are included and used to investigate a possible correlation between covid behavior and state density. 
+    
+##
+<iframe src="/assets/graphs/heatmap_with_time.html" width="1000" height="800" frameborder="0"></iframe>
 
 
 
