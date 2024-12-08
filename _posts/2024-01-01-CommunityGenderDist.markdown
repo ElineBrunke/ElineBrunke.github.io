@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Growth of focus communities"
-date:   2024-01-01 10:58:42 +0100
+title:  "Development in gender distribution for the 6 focus communities"
+date:   2024-01-01 11:58:42 +0100
 categories: jekyll update
 ---
 <iframe src="https://elinebrunke.github.io/assets/Es_De_minsize25.html" 

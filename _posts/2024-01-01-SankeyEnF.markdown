@@ -10,5 +10,4 @@ categories: jekyll update
         height="1000px" 
         frameborder="0">
 </iframe>
-This figure is a Sankey graph of the Spanish to German communities, yada yada yada.
 
