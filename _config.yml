@@ -22,8 +22,8 @@ title: Gender and Language Differences in the Growth of Wikipedia
 email: s183195@dtu.dk
 description: >- # this means to ignore newlines until "baseurl:"
   This is the website where we have uploaded our interactive graphs.
-baseurl: "/ElineBrunke.github.io" # Repository name
-url: "https://elinebrunke.github.io" # Your GitHub Pages URL
+baseurl: "" # Repository name
+url: "" # Your GitHub Pages URL
 twitter_username: jekyllrb
 github_username:  jekyll
 
