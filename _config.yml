@@ -23,7 +23,7 @@ email: s183195@dtu.dk
 description: >- # this means to ignore newlines until "baseurl:"
   This is the website where we have uploaded our interactive graphs.
 baseurl: "" # Repository name
-url: "" # Your GitHub Pages URL
+url: "https://elinebrunke.github.io" # Your GitHub Pages URL
 twitter_username: jekyllrb
 github_username:  jekyll
 
