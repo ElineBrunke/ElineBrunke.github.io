@@ -18,7 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: Gender and Language Differences in the Growth
+of Wikipedia
 email: s183195@dtu.dk
 description: >- # this means to ignore newlines until "baseurl:"
   This is the website where we have uploaded our interactive graphs.
