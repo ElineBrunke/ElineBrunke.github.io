@@ -22,8 +22,8 @@ title: Gender and Language Differences in the Growth of Wikipedia
 email: s183195@dtu.dk
 description: >- # this means to ignore newlines until "baseurl:"
   This is the website where we have uploaded our interactive graphs.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/ElineBrunke.github.io" # Repository name
+url: "https://elinebrunke.github.io" # Your GitHub Pages URL
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -31,6 +31,13 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+
+# Include custom directories
+include:
+  - assets
+
+# Debugging
+verbose: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
