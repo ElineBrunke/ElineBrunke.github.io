@@ -8,7 +8,7 @@ categories: jekyll update
 ** Figure 5.4 **
 
 <iframe src="https://elinebrunke.github.io/assets/Es_De_minsize25.html" 
-        width="900px" 
+        width="1000px" 
         height="1000px" 
         frameborder="0">
 </iframe>
